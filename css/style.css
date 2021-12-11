@@ -1,11 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body,
 ul,
 li,
 p,
 a, 
 h2 {
-    margin: 0;
-    padding: 0;
     list-style: none;
     text-decoration: none;
     font-size: 1.2rem;
@@ -17,36 +20,6 @@ h1{
     text-align: center;
     margin: 30px;
 }
-
-.header{
-    width: 100%;
-    height: 30px;
-    background: rgba(126, 79, 9, 0.671);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    position: absolute;
-}
-.header a {
-    color: white;
-    font-weight: bold;
-}
-
-.menu{
-    display: flex;
-    
-}
-.menu li {
-    display: block;
-    margin: 10px;
-    
-}
-.logo{
-    margin-left: 20px;
-    
-}
-
 /*       Banner       */
 .container{
     background: #1d1e20;
@@ -101,8 +74,8 @@ h1{
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    
 }
-
 .apresentacao > .card{
     flex: 1 1 310px;
     margin: 10px;
@@ -142,7 +115,7 @@ h1{
     background-color: rgb(245, 193, 51);  
 }
 .galeria .quadradoInteiro img{
-    height: 100%;
+    width: 100%;
     height: 100%;
 }
 .galeria .quadradoQuatro{
@@ -225,16 +198,10 @@ h1{
     flex-direction: column;
     background: linear-gradient(90deg, rgb(24, 132, 182) 0%, rgba(255,76,0,1) 100%);
 }
-.localizacao h1{
-    text-align: center;
-    font-size: 40px;
-    color: rgb(17, 15, 15);
-  
-}
 
  iframe{
     width: 90%;
-    height: 300px;
+    height: 50vh;
     border-radius: 20px;
     
 }
@@ -245,7 +212,7 @@ footer{
     min-height: 40vh;
     justify-content: center;
     align-items: center;
-    background: rgb(26, 26, 26);
+    background: #aa6600e5;
 }
 
 .contato{
